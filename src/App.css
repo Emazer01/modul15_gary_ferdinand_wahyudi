@@ -36,3 +36,130 @@
     transform: rotate(360deg);
   }
 }
+
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal, .overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49,49,49,0.8);
+}
+.modal-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+}
+
+.nav{
+  background-color: #303030;
+  color: white;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-weight: 600;
+}
+.nav-btn{
+  color: white;
+  font-weight: 300;
+}
+.nav-btn:hover{
+  color: #808080;
+  font-weight: 300;
+}
+h3{
+  color: #303030;
+}
+.book-card{
+  border-radius: 10px;
+}
+.book-foto{
+  background-color: #B0B0B0;
+  padding: 15px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.book-logo{
+  margin: -20px;
+  height: 270px;
+}
+header{
+  background-color: #505050;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.judul{
+  padding: 10px;
+  color: white;
+}
+td{
+  padding: 10px;
+  padding-right: 40px;
+  vertical-align: top;
+  width: auto;
+}
+.search-box{
+  background-color: #505050;
+  color: white;
+  width: 770px;
+  padding: 10px;
+  border-radius: 10px;
+}
+SearchIcon{
+  color: white;
+}
+footer{
+  background-color: #505050;
+  padding: 10px;
+  margin-top: 210px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  justify-content: left;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+left{
+  text-align: left;
+  width: 33%;
+}
+.logo-foot{
+  display: flex;
+  flex-direction: row;
+}
+.App-logo-foot {
+  height: 90px;
+  pointer-events: none;
+}
